@@ -51,11 +51,15 @@ App = {
     },
 
     loadContract: async()=>{
+      const startTime=performance.now();
       const todoList=await $.getJSON('TodoList.json')
       App.contracts.TodoList=TruffleContract(todoList)
       App.contracts.TodoList.setProvider(App.web3Provider)
       App.todoList = await App.contracts.TodoList.deployed()
       console.log(todoList)
+      const endTime=performance.now();
+      const elapsedTime= endTime-startTime;
+      console.log(`Execution time is: ${elapsedTime}`)
     },   
   }
   
