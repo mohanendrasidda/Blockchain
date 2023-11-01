@@ -1189,12 +1189,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x3256E06BA0a09aDFc075d54df5834aa3af28B451",
-      "transactionHash": "0x01943815561ce1a004b1e2dd1721fc176f84e1361dfe83e0c7eb60c3f887b992"
+      "address": "0x240ecEb32400D39c7746ff7B145aEF10515F013f",
+      "transactionHash": "0x62ee7c9e414131b8794bf8ab63db0b5ca7ce18cd6a89396242c3592dd268dd05"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2023-10-31T20:34:00.976Z",
+  "updatedAt": "2023-11-01T03:25:15.138Z",
   "devdoc": {
     "methods": {}
   },

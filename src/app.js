@@ -1,11 +1,8 @@
-APP ={
-    load: async()=>{
-        console.log("app loading...");
-        console.log("app loading...");
-
-        }
+App={
+    load:async()=>{
+        console.log("app loading")
+    }
 }
-
 
 $(()=>{
     $(window).load(()=>{
